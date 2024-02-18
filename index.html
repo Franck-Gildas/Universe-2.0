@@ -1,186 +1,159 @@
 <!--
-    auteur : Franck Gildas
-    date :   2023-06-04
-    but :    Création d'un site web personnalisé.
+    Autor : Franck Gildas
+    Date :   2023-06-04
+    Goal :    Creating a personalised website.
 -->
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="description" content="Exploration de la Cosmologie et l'Astronomie" />
-    <meta name="keywords" content="Cosmos, Univers, Astronomie" />
-    <meta name="author" content="Franck Gildas M." />
-    <title>Cosmos</title>
-    <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
-    <link rel="stylesheet" href="slick/slick.css" />
-    <link rel="stylesheet" href="slick/slick-theme.css" />
-    <link rel="stylesheet" href="magnific-popup/magnific-popup.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/tooplate-infinite-loop.css" />
 
-    <link rel="icon" type="image/png" href="img/cosmosLogo.jpg" />
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Exploration de la Cosmologie et l'Astronomie" />
+  <meta name="keywords" content="Cosmos, Univers, Astronomie" />
+  <meta name="author" content="Franck Gildas M." />
+  <title>Cosmos</title>
+  <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
+  <link rel="stylesheet" href="slick/slick.css" />
+  <link rel="stylesheet" href="slick/slick-theme.css" />
+  <link rel="stylesheet" href="magnific-popup/magnific-popup.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/tooplate-infinite-loop.css" />
+
+  <link rel="icon" type="image/png" href="img/cosmosLogo.jpg" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--
 Tooplate 2117 Infinite Loop
 https://www.tooplate.com/view/2117-infinite-loop
 -->
-  </head>
-  <body>
-    <!-- Hero section -->
-    <section id="accueil" class="text-white tm-font-big tm-parallax">
-      <!-- Navigation -->
-      <nav class="navbar navbar-expand-md tm-navbar" id="tmNav">
-        <div class="container">
-          <div class="tm-next">
-            <a href="#accueil" class="navbar-brand">
-              <img
-                src="img/atomLogo.jpg"
-                alt="Atomic"
-                class="logo"
-              />
-              Universe 2.0</a
-            >
-          </div>
+</head>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fas fa-bars navbar-toggler-icon"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link tm-nav-link" href="#accueil">Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link tm-nav-link" href="#explorons">Explorons</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link tm-nav-link" href="#mysteres"
-                  >Mystères</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link tm-nav-link" href="#gallery">Galeries</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link tm-nav-link" href="#contact">Contacts</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <div class="text-center tm-hero-text-container">
-        <div class="tm-hero-text-container-inner">
-          <h2 class="tm-hero-title" style="font-weight: bold">
-            EXPLORONS L'UNIVERS ENSEMBLE
-          </h2>
-          <blockquote>
-            <p class="tm-hero-subtitle">
-              <q
-                >Nous vivons sur un grain de poussière <br />suspendu dans un
-                rayons de soleil
-              </q>
-              <br />
-              <em>~Carl Sagan</em>
-            </p>
-          </blockquote>
-        </div>
-      </div>
-
-      <div class="tm-next tm-intro-next">
-        <a
-          href="https://www.nasa.gov/"
-          class="text-center tm-down-arrow-link"
-          target="_blank"
-        >
-          <button class="savoirPlusButton">Savoir Plus</button>
-        </a>
-      </div>
-    </section>
-
-    <section id="explorons" class="tm-section-pad-top">
+<body>
+  <!-- Hero section -->
+  <section id="accueil" class="text-white tm-font-big tm-parallax">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md tm-navbar" id="tmNav">
       <div class="container">
-        <div class="row tm-content-box" style="background-color: white; background-size: cover;">
-          <!-- first row -->
-          <div class="col-lg-12 col-xl-12">
-            <div class="tm-intro-text-container">
-              <hr class="premierLigne" />
-              <h2
-                class="tm-text-primary mb-4 tm-section-title"
-                style="margin-left: 50px; font-weight: bold"
-              >
-                NOTRE UNIVERS, NOTRE <br />
-                GALAXY, NOTRE SYSTÈME <br />
-                SOLAIRE, NOTRE TERRE.
-              </h2>
-              <p class="mb-4 tm-intro-text">
-                <span
-                  style="
+        <div class="tm-next">
+          <a href="#accueil" class="navbar-brand">
+            <img src="img/atomLogo.jpg" alt="Atomic" class="logo" />
+            Universe 2.0</a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link tm-nav-link" href="#accueil">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tm-nav-link" href="#explorons">Explorons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tm-nav-link" href="#mysteres">Mystères</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tm-nav-link" href="#gallery">Galeries</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tm-nav-link" href="#contact">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="text-center tm-hero-text-container">
+      <div class="tm-hero-text-container-inner">
+        <h2 class="tm-hero-title" style="font-weight: bold">
+          EXPLORONS L'UNIVERS ENSEMBLE
+        </h2>
+        <blockquote>
+          <p class="tm-hero-subtitle">
+            <q>Nous vivons sur un grain de poussière <br />suspendu dans un
+              rayons de soleil
+            </q>
+            <br />
+            <em>~Carl Sagan</em>
+          </p>
+        </blockquote>
+      </div>
+    </div>
+
+    <div class="tm-next tm-intro-next">
+      <a href="https://www.nasa.gov/" class="text-center tm-down-arrow-link" target="_blank">
+        <button class="savoirPlusButton">Savoir Plus</button>
+      </a>
+    </div>
+  </section>
+
+  <section id="explorons" class="tm-section-pad-top">
+    <div class="container">
+      <div class="row tm-content-box" style="background-color: white; background-size: cover;">
+        <!-- first row -->
+        <div class="col-lg-12 col-xl-12">
+          <div class="tm-intro-text-container">
+            <hr class="premierLigne" />
+            <h2 class="tm-text-primary mb-4 tm-section-title" style="margin-left: 50px; font-weight: bold">
+              NOTRE UNIVERS, NOTRE <br />
+              GALAXY, NOTRE SYSTÈME <br />
+              SOLAIRE, NOTRE TERRE.
+            </h2>
+            <p class="mb-4 tm-intro-text">
+              <span style="
                     text-align: left;
                     width: 45%;
                     float: left;
                     margin-left: 50px;
-                  "
-                >
-                  Tout d'abord, commençons par comprendre l'origine de
-                  l'univers. Beaucoup d'astronomes et astrophysiciens postulent
-                  la formation de l'univers par la théorie du Big Bang,
-                  l'idéologie la plus supportée par des scientifiques...
-                  <!-- <a href="https://fb.com/tooplate">Tooplate Facebook page</a>.-->
+                  ">
+                Tout d'abord, commençons par comprendre l'origine de
+                l'univers. Beaucoup d'astronomes et astrophysiciens postulent
+                la formation de l'univers par la théorie du Big Bang,
+                l'idéologie la plus supportée par des scientifiques...
+                <!-- <a href="https://fb.com/tooplate">Tooplate Facebook page</a>.-->
 
-                  <br />
-                  <br />
-                  <a
-                    href="https://fr.wikipedia.org/wiki/Histoire_et_chronologie_de_l%27Univers"
-                    target="_blank"
-                  >
-                    <button class="savoirButton">
-                      <span style="font-weight: bold">Savoir Plus</span>
-                    </button>
-                  </a>
-                </span>
-              </p>
-
-              <figure style="position: absolute; top: 15px; left: 850px">
-                <a href="img/Galactic_Park.jpg">
-                  <img
-                    src="img/Galactic_Park.jpg"
-                    alt="Galactic Park"
-                    style="height: 90%; width: 90%; cursor: pointer"
-                  />
+                <br />
+                <br />
+                <a href="https://fr.wikipedia.org/wiki/Histoire_et_chronologie_de_l%27Univers" target="_blank">
+                  <button class="savoirButton">
+                    <span style="font-weight: bold">Savoir Plus</span>
+                  </button>
                 </a>
-                <figcaption>
-                  <span style="font-weight: bold">Galactic Park</span>
-                  <br />
-                  <u>Source:</u> <em>JWST</em>
-                </figcaption>
-              </figure>
+              </span>
+            </p>
 
-              <br />
-              <br />
-              <br />
-            </div>
+            <figure style="position: absolute; top: 15px; left: 850px">
+              <a href="img/Galactic_Park.jpg">
+                <img src="img/Galactic_Park.jpg" alt="Galactic Park" style="height: 90%; width: 90%; cursor: pointer" />
+              </a>
+              <figcaption>
+                <span style="font-weight: bold">Galactic Park</span>
+                <br />
+                <u>Source:</u> <em>JWST</em>
+              </figcaption>
+            </figure>
+
+            <br />
+            <br />
+            <br />
           </div>
         </div>
-        <!-- first row -->
+      </div>
+      <!-- first row -->
 
-        <br />
-        <br />
-        
-     <div>
+      <br />
+      <br />
 
-        <center><h2 style="font-weight: bold; color: black;">QUELQUES CONCEPTS</h2></center>
+      <div>
+
+        <center>
+          <h2 style="font-weight: bold; color: black;">QUELQUES CONCEPTS</h2>
+        </center>
 
         <p>
           L'astronomie est l'étude de l'univers. Elle est la science ayant pour
@@ -198,10 +171,7 @@ https://www.tooplate.com/view/2117-infinite-loop
           </div>
           <div class="col-lg-5">
             <div class="tm-intro-text-container">
-              <a
-                href="https://www.youtube.com/watch?v=zmmzf10HyW4"
-                target="_blank"
-              >
+              <a href="https://www.youtube.com/watch?v=zmmzf10HyW4" target="_blank">
                 <div class="youTubeButton"></div>
               </a>
 
@@ -217,11 +187,7 @@ https://www.tooplate.com/view/2117-infinite-loop
 
               <figure>
                 <a href="img/BigBang.png">
-                  <img
-                    src="img/BigBang.png"
-                    alt="Big Bang"
-                    style="max-width: 90%; height: auto; cursor: pointer"
-                  />
+                  <img src="img/BigBang.png" alt="Big Bang" style="max-width: 90%; height: auto; cursor: pointer" />
                 </a>
                 <figcaption><u>Soure:</u> <em>NASA</em></figcaption>
               </figure>
@@ -233,14 +199,8 @@ https://www.tooplate.com/view/2117-infinite-loop
           </div>
 
           <div class="col-lg-5">
-            <div
-              class="tm-intro-text-container"
-              style="position: absolute; left: 100px"
-            >
-              <a
-                href="https://www.youtube.com/watch?v=R5SD0JtvBDo"
-                target="_blank"
-              >
+            <div class="tm-intro-text-container" style="position: absolute; left: 100px">
+              <a href="https://www.youtube.com/watch?v=R5SD0JtvBDo" target="_blank">
                 <div class="youTubeButton"></div>
               </a>
               <br />
@@ -256,11 +216,7 @@ https://www.tooplate.com/view/2117-infinite-loop
 
               <figure>
                 <a href="img/BlackHole.jpg">
-                  <img
-                    src="img/BlackHole.jpg"
-                    alt="Black Hole"
-                    style="max-width: 90%; height: auto; cursor: pointer"
-                  />
+                  <img src="img/BlackHole.jpg" alt="Black Hole" style="max-width: 90%; height: auto; cursor: pointer" />
                 </a>
 
                 <figcaption>
@@ -270,8 +226,8 @@ https://www.tooplate.com/view/2117-infinite-loop
             </div>
           </div>
         </div>
-        
-        
+
+
         <!-- second row -->
 
         <div class="row tm-content-box">
@@ -281,10 +237,7 @@ https://www.tooplate.com/view/2117-infinite-loop
           </div>
           <div class="col-lg-5">
             <div class="tm-intro-text-container">
-              <a
-                href="https://www.youtube.com/watch?v=R5SD0JtvBDo"
-                target="_blank"
-              >
+              <a href="https://www.youtube.com/watch?v=R5SD0JtvBDo" target="_blank">
                 <div class="youTubeButton"></div>
               </a>
               <br />
@@ -300,11 +253,7 @@ https://www.tooplate.com/view/2117-infinite-loop
 
               <figure>
                 <a href="img/Supernova.jpg">
-                  <img
-                    src="img/Supernova.jpg"
-                    alt="Supernova"
-                    style="max-width: 90%; height: auto; cursor: pointer"
-                  />
+                  <img src="img/Supernova.jpg" alt="Supernova" style="max-width: 90%; height: auto; cursor: pointer" />
                 </a>
 
                 <figcaption><u>Soure:</u> <em>SPACE</em></figcaption>
@@ -325,14 +274,8 @@ https://www.tooplate.com/view/2117-infinite-loop
             <!--<i class="fas fa-3x fa-users text-center tm-icon"></i>-->
           </div>
           <div class="col-lg-5">
-            <div
-              class="tm-intro-text-container"
-              style="position: absolute; left: 100px"
-            >
-              <a
-                href="https://www.youtube.com/watch?v=7MMX09jWu_0"
-                target="_blank"
-              >
+            <div class="tm-intro-text-container" style="position: absolute; left: 100px">
+              <a href="https://www.youtube.com/watch?v=7MMX09jWu_0" target="_blank">
                 <div class="youTubeButton"></div>
               </a>
 
@@ -350,11 +293,7 @@ https://www.tooplate.com/view/2117-infinite-loop
 
               <figure>
                 <a href="img/Pulsar.jpg">
-                  <img
-                    src="img/Pulsar.jpg"
-                    alt="Pulsar"
-                    style="max-width: 90%; height: auto; cursor: pointer"
-                  />
+                  <img src="img/Pulsar.jpg" alt="Pulsar" style="max-width: 90%; height: auto; cursor: pointer" />
                 </a>
 
                 <figcaption><u>Soure:</u> <em>Science</em></figcaption>
@@ -374,23 +313,17 @@ https://www.tooplate.com/view/2117-infinite-loop
         <br />
         <br />
 
-        <div
-          style="
+        <div style="
             width: 100%;
             background-color: white;
             background-size: cover;           
             height: 68vh;
-          "
-        >
-          <hr class="deuxiemeLigne"/>
+          ">
+          <hr class="deuxiemeLigne" />
 
           <figure>
             <a href="img/Deep_Field.jpg">
-              <img
-                src="img/Deep_Field.jpg"
-                alt="Webb' Deep Field"
-                style="height: 30%; width: 30%; cursor: pointer"
-              />
+              <img src="img/Deep_Field.jpg" alt="Webb' Deep Field" style="height: 30%; width: 30%; cursor: pointer" />
             </a>
             <figcaption>
               <span style="font-weight: bold">Webb's First Deep Field</span>
@@ -415,10 +348,7 @@ https://www.tooplate.com/view/2117-infinite-loop
               ces images.
             </p>
 
-            <a
-              href="https://www.nasa.gov/content/goddard/webb-telescope-image-galleries-from-nasa"
-              target="_blank"
-            >
+            <a href="https://www.nasa.gov/content/goddard/webb-telescope-image-galleries-from-nasa" target="_blank">
               <button class="savoirButton">
                 <span style="font-weight: bold">Savoir Plus</span>
               </button>
@@ -427,509 +357,376 @@ https://www.tooplate.com/view/2117-infinite-loop
         </div>
         <!-- third row -->
       </div>
-    </section>
+  </section>
 
-    <section id="mysteres" class="tm-section-pad-top tm-parallax-2">
-      <div class="container tm-testimonials-content">
-        <div class="row">
-          <div class="col-lg-12 tm-content-box">
-            <h2
-              class="text-white text-center mb-4 tm-section-title"
-              style="font-weight: bold"
-            >
-              Mystères de l'Univers
-            </h2>
-            <p
-              class="mx-auto tm-section-desc text-center"
-              style="font-size: 20px"
-            >
-              Quelles sont ces questions brûlantes sur le cosmos qui
-              déconcertent encore les astronomes aujourd'hui? Pour enquêter sur
-              certains des plus grands mystères de la science, vous devez vous
-              aventurer dans des endroits assez éloignés : le fond des océans,
-              l'intérieur du cerveau humain, le sommet des montagnes et même la
-              fin des temps. <br />
-              Cliquez sur l'une de ces images pour en savoir plus.
-            </p>
-            <div class="mx-auto tm-gallery-container tm-gallery-container-2">
-              <div class="tm-testimonials-carousel">
-                <figure class="tm-testimonial-item">
-                  <h2>Matière noire</h2>
-                  <br />
-                  <a
-                    href="https://fr.wikipedia.org/wiki/Mati%C3%A8re_noire"
-                    target="_blank"
-                  >
-                    <img
-                      src="img/Dark_Matter.jpg"
-                      alt="Dark Matter"
-                      class="img-mystere"
-                      
-                    />
-                  </a>
-
-                  <blockquote>
-                    En ce qui concerne le fait le plus étonnant dont nous ne
-                    savons rien, il y a la matière noire et l'énergie noire.
-                    Nous ne savons pas ce que l'un d'eux est. Tout ce que nous
-                    savons et aimons sur l'univers et toutes les lois de la
-                    physique telles qu'elles s'appliquent s'appliquent à quatre
-                    pour cent de l'univers. C'est époustouflant.
-                  </blockquote>
-                  <figcaption>Neil deGrasse Tyson</figcaption>
-                </figure>
-
-                <figure class="tm-testimonial-item">
-                  <h2>Multivers</h2>
-                  <br />
-                  <a
-                    href="https://fr.wikipedia.org/wiki/Multivers"
-                    target="_blank"
-                  >
-                    <img
-                      src="img/Multiverse.jpg"
-                      alt="Multiverse"
-                      class="img-mystere"
-                     
-                    />
-                  </a>
-
-                  <blockquote>
-                    La pensée moderne est que le temps n'a pas commencé avec le
-                    big bang et qu'il y avait un multivers même avant le big
-                    bang. Dans la théorie de l'inflation et dans la théorie des
-                    cordes, il y avait des univers avant notre big bang, et ces
-                    big bangs se produisent tout le temps. Les univers se
-                    forment lorsque des bulles entrent en collision ou se
-                    fissionnent en bulles plus petites.
-                  </blockquote>
-                  <figcaption>Machio Kaku</figcaption>
-                </figure>
-
-                <figure class="tm-testimonial-item">
-                  <h2>Vie Extraterrestre</h2>
-                  <br />
-                  <a
-                    href="https://fr.wikipedia.org/wiki/Vie_extraterrestre"
-                    target="_blank"
-                  >
-                    <img
-                      src="img/Aliens.jpg"
-                      alt="Extraterrestre"
-                      class="img-mystere"
-                      
-                    />
-                  </a>
-                  <blockquote>
-                    On me demande souvent : "Croyez-vous qu'il existe une
-                    intelligence extraterrestre ?" Je donne les arguments
-                    standards - il y a beaucoup d'endroits là-bas, les molécules
-                    de la vie sont partout, j'utilise le mot milliards, etc.
-                    Ensuite, je dis que ce serait étonnant pour moi s'il n'y
-                    avait pas d'intelligence extraterrestre, mais bien sûr, il
-                    n'y a encore aucune preuve convaincante pour cela.
-                  </blockquote>
-                  <figcaption>Carl Sagan</figcaption>
-                </figure>
-
-                <figure class="tm-testimonial-item">
-                  <h2>Avant le Big Bang?</h2>
-                  <br />
-                  <a
-                    href="https://fr.wikipedia.org/wiki/Big_Bang"
-                    target="_blank"
-                  >
-                    <img
-                      src="img/before-big-bang.jpg"
-                      alt="Big Bang"
-                      class="img-mystere"
-                      
-                    />
-                  </a>
-                  <blockquote>
-                    Le temps lui-même doit s'arrêter. Vous ne pouvez pas arriver
-                    à un moment avant le big bang, car il n'y avait pas de temps
-                    avant le big bang. Nous avons finalement trouvé quelque
-                    chose qui n'a pas de cause parce qu'il n'y avait pas de
-                    temps pour qu'une cause existe.
-                  </blockquote>
-                  <figcaption>Stephen Hawkings</figcaption>
-                </figure>
-
-                <figure class="tm-testimonial-item">
-                  <h2>Origine de la vie</h2>
-                  <br />
-                  <a
-                    href="https://fr.wikipedia.org/wiki/Origine_de_la_vie"
-                    target="_blank"
-                  >
-                    <img
-                      src="img/Life_Origin.jpg"
-                      alt="Image"
-                      class="img-mystere"
-                      
-                    />
-                  </a>
-
-                  <blockquote>
-                    Il y a de la grandeur dans cette vision de la vie, avec ses
-                    multiples pouvoirs, ayant été à l'origine insufflés dans
-                    quelques formes ou dans une seule ; et que, tandis que cette
-                    planète a continué à faire des cycles selon la loi fixe de
-                    la gravité, à partir d'un si simple commencement, les formes
-                    les plus belles et les plus merveilleuses ont été et sont en
-                    train d'évoluer.
-                  </blockquote>
-                  <figcaption>Charles Darwin</figcaption>
-                </figure>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tm-bg-overlay"></div>
-    </section>
-
-    <section id="gallery" class="tm-section-pad-top" style="background-color: white;">
-      <div class="container tm-container-gallery">
-        <div class="row">
-          <div class="text-center col-12">
-            <h2
-              class="tm-text-primary tm-section-title mb-4"
-              style="font-weight: bold;"
-            >
-              Galeries
-            </h2>
-            <p class="mx-auto tm-section-desc" style="font-size: 20px">
-              Visitons à présent quelques scientifiques qui ont contribués à
-              l'évolution de notre comprehension du Cosmos.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="mx-auto tm-gallery-container">
-              <div class="grid tm-gallery">
-                <a href="img/Stephen_Hawking.jpeg">
-                  <figure class="effect-honey tm-gallery-item">
-                    <img
-                      src="img/Stephen_Hawking.jpeg"
-                      alt="Stephen Hawking"
-                      class="img-fluid"
-                      
-                    />
-                    <figcaption>
-                      <h2>
-                        <i>Stephen <span>Hawking</span></i>
-                      </h2>
-                    </figcaption>
-                  </figure>
+  <section id="mysteres" class="tm-section-pad-top tm-parallax-2">
+    <div class="container tm-testimonials-content">
+      <div class="row">
+        <div class="col-lg-12 tm-content-box">
+          <h2 class="text-white text-center mb-4 tm-section-title" style="font-weight: bold">
+            Mystères de l'Univers
+          </h2>
+          <p class="mx-auto tm-section-desc text-center" style="font-size: 20px">
+            Quelles sont ces questions brûlantes sur le cosmos qui
+            déconcertent encore les astronomes aujourd'hui? Pour enquêter sur
+            certains des plus grands mystères de la science, vous devez vous
+            aventurer dans des endroits assez éloignés : le fond des océans,
+            l'intérieur du cerveau humain, le sommet des montagnes et même la
+            fin des temps. <br />
+            Cliquez sur l'une de ces images pour en savoir plus.
+          </p>
+          <div class="mx-auto tm-gallery-container tm-gallery-container-2">
+            <div class="tm-testimonials-carousel">
+              <figure class="tm-testimonial-item">
+                <h2>Matière noire</h2>
+                <br />
+                <a href="https://fr.wikipedia.org/wiki/Mati%C3%A8re_noire" target="_blank">
+                  <img src="img/Dark_Matter.jpg" alt="Dark Matter" class="img-mystere" />
                 </a>
-                <a href="img/Isaac-Newton.jpg">
-                  <figure class="effect-honey tm-gallery-item">
-                    <img
-                      src="img/Isaac-Newton.jpg"
-                      alt="Isaac Newton"
-                      class="img-fluid"
-                      
-                    />
-                    <figcaption>
-                      <h2>
-                        <i>Isaac <span>Newton</span></i>
-                      </h2>
-                    </figcaption>
-                  </figure>
-                </a>
-                <a href="img/Albert_Einstein.jpg">
-                  <figure class="effect-honey tm-gallery-item">
-                    <img
-                      src="img/Albert_Einstein.jpg"
-                      alt="Albert Einstein"
-                      class="img-fluid"
-                     
-                    />
-                    <figcaption>
-                      <h2>
-                        <i>Albert<span> Einstein</span></i>
-                      </h2>
-                    </figcaption>
-                  </figure>
-                </a>
-                <a href="img/Nicolaus-Copernicus.jpg">
-                  <figure class="effect-honey tm-gallery-item">
-                    <img
-                      src="img/Nicolaus-Copernicus.jpg"
-                      alt="Nicolaus Copernicus"
-                      class="img-fluid"
-                      
-                    />
-                    <figcaption>
-                      <h2>
-                        <i>Nicolaus <span>Copernicus</span></i>
-                      </h2>
-                    </figcaption>
-                  </figure>
-                </a>
-                <a href="img/Carl_Sagan.jpg">
-                  <figure class="effect-honey tm-gallery-item">
-                    <img
-                      src="img/Carl_Sagan.jpg"
-                      alt="Carl Sagan"
-                      class="img-fluid"
-                      
-                    />
-                    <figcaption>
-                      <h2>
-                        <i
-                          >Carl<span>
-                            <br />
-                            Sagan</span
-                          >
-                        </i>
-                      </h2>
-                    </figcaption>
-                  </figure>
-                </a>
-                <a href="img/Galileo_Galilei.jpg">
-                  <figure class="effect-honey tm-gallery-item">
-                    <img
-                      src="img/Galileo_Galilei.jpg"
-                      alt="Galileo_Galilei"
-                      class="img-fluid"
-                      
-                    />
-                    <figcaption>
-                      <h2>
-                        <i
-                          >Galilée<span><br />(Galileo Galilei)</span></i
-                        >
-                      </h2>
-                    </figcaption>
-                  </figure>
-                </a>
-                <a href="img/Charles_Darwin.jpg">
-                  <figure class="effect-honey tm-gallery-item">
-                    <img
-                      src="img/Charles_Darwin.jpg"
-                      alt="Charles Darwin"
-                      class="img-fluid"
-                      
-                    />
-                    <figcaption>
-                      <h2>
-                        <i>Charles <span>Darwin</span></i>
-                      </h2>
-                    </figcaption>
-                  </figure>
-                </a>
-                <a href="img/Johannes_Kepler.jpg">
-                  <figure class="effect-honey tm-gallery-item">
-                    <img
-                      src="img/Johannes_Kepler.jpg"
-                      alt="Johannes Kepler"
-                      class="img-fluid"
-                      
-                    />
-                    <figcaption>
-                      <h2>
-                        <i>Johannes <span>Kepler</span></i>
-                      </h2>
-                    </figcaption>
-                  </figure>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-          
-          
-      </div>
-        
-            <div style="background-color: lightsteelblue;">
-              <h2 style="font-weight: bold; text-align: center;">Vous trouverez aussi...</h2> <br /> <br />
-              
-              <div class="video">
-                <iframe
-                  width="1024"
-                  height="576"
-                  src="https://www.youtube.com/embed/cwZb2mqId0A"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
-                ></iframe>
-                  
-              </div>
-              
-              <p class="luneText">Les premiers pas sur la lune. <br />
-                  <u>Source</u>: <i>NTD</i>
-              </p>
-              
-              <p style="margin: 10px;">
-                Apollo 11 est une mission du programme spatial américain Apollo au cours de
-                laquelle, pour la première fois, des hommes se sont posés sur la Lune, le
-                lundi 21 juillet 1969. L'agence spatiale américaine, la NASA, remplit ainsi
-                le désir fixé par le président John F. Kennedy en 1961 de poser un équipage
-                sur la Lune avant la fin de la décennie 1960. Il s'agissait de démontrer la
-                supériorité des États-Unis sur l'Union soviétique qui avait été mise à mal
-                par les succès soviétiques au début de l'ère spatiale dans le contexte de la
-                guerre froide qui oppose alors ces deux pays. Ce défi est lancé alors que la
-                NASA n'a pas encore placé en orbite un seul astronaute. Grâce à une
-                mobilisation de moyens humains et financiers considérables, l'agence
-                spatiale rattrape puis dépasse le programme spatial soviétique. <br />
-                
-                <u>Source</u>: <a href="https://fr.wikipedia.org/wiki/Apollo_11" target="_blank"><i>Wikipédia</i></a>
-              </p>
-              
-              <br />
-              
-              <div class="neil">
+
                 <blockquote>
-                  <p>
-                      <q><span class="neilQuote">C'est un petit pas pour l'homme mais un bond de géant pour l'humanité. </span></q>
-                  </p>
-                  
-                  <img id="neilPicture" src="img/Neil_Armstrong.jpg" alt="Neil Armstrong"/>
-                  <footer>
-                      <strong>Neil Armstrong</strong> <br />
-                      Astronaut - <a href="https://www.nasa.gov/centers/glenn/about/bios/neilabio.html" target="_blank"><u>NASA</u></a>              
-                  </footer>
+                  En ce qui concerne le fait le plus étonnant dont nous ne
+                  savons rien, il y a la matière noire et l'énergie noire.
+                  Nous ne savons pas ce que l'un d'eux est. Tout ce que nous
+                  savons et aimons sur l'univers et toutes les lois de la
+                  physique telles qu'elles s'appliquent s'appliquent à quatre
+                  pour cent de l'univers. C'est époustouflant.
                 </blockquote>
-              </div>
-              
-          </div>
+                <figcaption>Neil deGrasse Tyson</figcaption>
+              </figure>
 
-        
-    </section>
+              <figure class="tm-testimonial-item">
+                <h2>Multivers</h2>
+                <br />
+                <a href="https://fr.wikipedia.org/wiki/Multivers" target="_blank">
+                  <img src="img/Multiverse.jpg" alt="Multiverse" class="img-mystere" />
+                </a>
 
-    <!-- Contact -->
-    <section id="contact" class="tm-section-pad-top tm-parallax-2">
-      <div class="container tm-container-contact">
-        <div class="row">
-          <div class="text-center col-12">
-            <h2 class="tm-section-title mb-4" style="font-weight: bold;">Contactez-nous</h2>
-            <p class="mb-5" style="font-size: 26px;">
-              Rejoignez-nous alors que nous percevons les mystères de l'univers.
-            </p>
-            <br />
-          </div>
+                <blockquote>
+                  La pensée moderne est que le temps n'a pas commencé avec le
+                  big bang et qu'il y avait un multivers même avant le big
+                  bang. Dans la théorie de l'inflation et dans la théorie des
+                  cordes, il y avait des univers avant notre big bang, et ces
+                  big bangs se produisent tout le temps. Les univers se
+                  forment lorsque des bulles entrent en collision ou se
+                  fissionnent en bulles plus petites.
+                </blockquote>
+                <figcaption>Machio Kaku</figcaption>
+              </figure>
 
-          <div class="col-sm-12 col-md-6">
-            <form action="mailto:efmukamk01@monccnb.ca" method="post">
-                
-                <table width="100%">
-                    <tr>
-                        <td>
-                            <input
-                            id="prenom"
-                            name="prenom"
-                            type="text"
-                            placeholder="Prénom"
-                            class="tm-input"
-                            required
-                          />
-                        </td>
-                        
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            <input
-                            id="nom"
-                            name="nom"
-                            type="text"
-                            placeholder="Nom"
-                            class="tm-input"
-                            required
-                          />
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            <input
-                            id="email"
-                            name="email"
-                            type="email"
-                            placeholder="Email"
-                            class="tm-input"
-                            required
-                           />
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            <textarea
-                            id="message"
-                            name="message"
-                            rows="8"
-                            placeholder="Message"
-                            class="tm-input"
-                            required
-                          ></textarea>
-                        </td>
-                    </tr>
-                </table>
-                              
-              <button type="submit" class="btn tm-btn-submit">Envoyer</button>
-            </form>
-          </div>
+              <figure class="tm-testimonial-item">
+                <h2>Vie Extraterrestre</h2>
+                <br />
+                <a href="https://fr.wikipedia.org/wiki/Vie_extraterrestre" target="_blank">
+                  <img src="img/Aliens.jpg" alt="Extraterrestre" class="img-mystere" />
+                </a>
+                <blockquote>
+                  On me demande souvent : "Croyez-vous qu'il existe une
+                  intelligence extraterrestre ?" Je donne les arguments
+                  standards - il y a beaucoup d'endroits là-bas, les molécules
+                  de la vie sont partout, j'utilise le mot milliards, etc.
+                  Ensuite, je dis que ce serait étonnant pour moi s'il n'y
+                  avait pas d'intelligence extraterrestre, mais bien sûr, il
+                  n'y a encore aucune preuve convaincante pour cela.
+                </blockquote>
+                <figcaption>Carl Sagan</figcaption>
+              </figure>
 
-          <div class="col-sm-12 col-md-6">
-            <div class="contact-item">
-              <a
-                rel="nofollow"
-                href="https://www.facebook.com/groups/jameswebbspacetelescope"
-                class="item-link"
-              >
-                <!--<i class="far fa-2x fa-comment mr-4"></i>-->
-                <i class="fa fa-facebook"></i> &nbsp; &nbsp; &nbsp; &nbsp;
-                <span class="mb-0">Rejoignez notre groupe</span>
-              </a>
+              <figure class="tm-testimonial-item">
+                <h2>Avant le Big Bang?</h2>
+                <br />
+                <a href="https://fr.wikipedia.org/wiki/Big_Bang" target="_blank">
+                  <img src="img/before-big-bang.jpg" alt="Big Bang" class="img-mystere" />
+                </a>
+                <blockquote>
+                  Le temps lui-même doit s'arrêter. Vous ne pouvez pas arriver
+                  à un moment avant le big bang, car il n'y avait pas de temps
+                  avant le big bang. Nous avons finalement trouvé quelque
+                  chose qui n'a pas de cause parce qu'il n'y avait pas de
+                  temps pour qu'une cause existe.
+                </blockquote>
+                <figcaption>Stephen Hawkings</figcaption>
+              </figure>
+
+              <figure class="tm-testimonial-item">
+                <h2>Origine de la vie</h2>
+                <br />
+                <a href="https://fr.wikipedia.org/wiki/Origine_de_la_vie" target="_blank">
+                  <img src="img/Life_Origin.jpg" alt="Image" class="img-mystere" />
+                </a>
+
+                <blockquote>
+                  Il y a de la grandeur dans cette vision de la vie, avec ses
+                  multiples pouvoirs, ayant été à l'origine insufflés dans
+                  quelques formes ou dans une seule ; et que, tandis que cette
+                  planète a continué à faire des cycles selon la loi fixe de
+                  la gravité, à partir d'un si simple commencement, les formes
+                  les plus belles et les plus merveilleuses ont été et sont en
+                  train d'évoluer.
+                </blockquote>
+                <figcaption>Charles Darwin</figcaption>
+              </figure>
             </div>
-
-            <div class="contact-item">
-              <a
-                rel="nofollow"
-                href="mailto:efmukamk01@monccnb.ca"
-                class="item-link"
-              >
-                <i class="far fa-2x fa-envelope mr-4"></i>
-                <span class="mb-0">Envoyez un courriel</span>
-              </a>
-            </div>
-
-            <div class="contact-item">
-              <a
-                rel="nofollow"
-                href="https://www.google.com/maps/place/CCNB+-+Campus+de+Bathurst/@47.6212675,-65.6735967,15z/data=!4m6!3m5!1s0x4c98915c00697663:0xe38fef4940b044e8!8m2!3d47.6212867!4d-65.6739133!16s%2Fm%2F011jh53j?entry=ttu"
-                class="item-link"
-              >
-                <i class="fas fa-2x fa-map-marker-alt mr-4"></i>
-                <span class="mb-0">Notre emplacement</span>
-              </a>
-            </div>
-
-            <div class="contact-item">
-              <a rel="nofollow" href="tel:0100200340" class="item-link">
-                <i class="fas fa-2x fa-phone-square mr-4"></i>
-                <span class="mb-0">506-655-7435</span>
-              </a>
-            </div>
-
-            <div class="contact-item">&nbsp;</div>
           </div>
         </div>
-        <!-- row ending -->
+      </div>
+    </div>
+    <div class="tm-bg-overlay"></div>
+  </section>
+
+  <section id="gallery" class="tm-section-pad-top" style="background-color: white;">
+    <div class="container tm-container-gallery">
+      <div class="row">
+        <div class="text-center col-12">
+          <h2 class="tm-text-primary tm-section-title mb-4" style="font-weight: bold;">
+            Galeries
+          </h2>
+          <p class="mx-auto tm-section-desc" style="font-size: 20px">
+            Visitons à présent quelques scientifiques qui ont contribués à
+            l'évolution de notre comprehension du Cosmos.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="mx-auto tm-gallery-container">
+            <div class="grid tm-gallery">
+              <a href="img/Stephen_Hawking.jpeg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/Stephen_Hawking.jpeg" alt="Stephen Hawking" class="img-fluid" />
+                  <figcaption>
+                    <h2>
+                      <i>Stephen <span>Hawking</span></i>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/Isaac-Newton.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/Isaac-Newton.jpg" alt="Isaac Newton" class="img-fluid" />
+                  <figcaption>
+                    <h2>
+                      <i>Isaac <span>Newton</span></i>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/Albert_Einstein.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/Albert_Einstein.jpg" alt="Albert Einstein" class="img-fluid" />
+                  <figcaption>
+                    <h2>
+                      <i>Albert<span> Einstein</span></i>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/Nicolaus-Copernicus.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/Nicolaus-Copernicus.jpg" alt="Nicolaus Copernicus" class="img-fluid" />
+                  <figcaption>
+                    <h2>
+                      <i>Nicolaus <span>Copernicus</span></i>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/Carl_Sagan.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/Carl_Sagan.jpg" alt="Carl Sagan" class="img-fluid" />
+                  <figcaption>
+                    <h2>
+                      <i>Carl<span>
+                          <br />
+                          Sagan</span>
+                      </i>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/Galileo_Galilei.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/Galileo_Galilei.jpg" alt="Galileo_Galilei" class="img-fluid" />
+                  <figcaption>
+                    <h2>
+                      <i>Galilée<span><br />(Galileo Galilei)</span></i>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/Charles_Darwin.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/Charles_Darwin.jpg" alt="Charles Darwin" class="img-fluid" />
+                  <figcaption>
+                    <h2>
+                      <i>Charles <span>Darwin</span></i>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/Johannes_Kepler.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/Johannes_Kepler.jpg" alt="Johannes Kepler" class="img-fluid" />
+                  <figcaption>
+                    <h2>
+                      <i>Johannes <span>Kepler</span></i>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <footer class="text-center small tm-footer">
-        <p class="mb-0">
-          Copyright &copy; 2023 Cosmos - Universe 2.0. <br /> <br />
-          Modifié à partir de Infinite Loop Bootstrap 4.0 HTML Template.
-          
-          <!--
+
+    </div>
+
+    <div style="background-color: lightsteelblue;">
+      <h2 style="font-weight: bold; text-align: center;">Vous trouverez aussi...</h2> <br /> <br />
+
+      <div class="video">
+        <iframe width="1024" height="576" src="https://www.youtube.com/embed/cwZb2mqId0A" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+
+      </div>
+
+      <p class="luneText">Les premiers pas sur la lune. <br />
+        <u>Source</u>: <i>NTD</i>
+      </p>
+
+      <p style="margin: 10px;">
+        Apollo 11 est une mission du programme spatial américain Apollo au cours de
+        laquelle, pour la première fois, des hommes se sont posés sur la Lune, le
+        lundi 21 juillet 1969. L'agence spatiale américaine, la NASA, remplit ainsi
+        le désir fixé par le président John F. Kennedy en 1961 de poser un équipage
+        sur la Lune avant la fin de la décennie 1960. Il s'agissait de démontrer la
+        supériorité des États-Unis sur l'Union soviétique qui avait été mise à mal
+        par les succès soviétiques au début de l'ère spatiale dans le contexte de la
+        guerre froide qui oppose alors ces deux pays. Ce défi est lancé alors que la
+        NASA n'a pas encore placé en orbite un seul astronaute. Grâce à une
+        mobilisation de moyens humains et financiers considérables, l'agence
+        spatiale rattrape puis dépasse le programme spatial soviétique. <br />
+
+        <u>Source</u>: <a href="https://fr.wikipedia.org/wiki/Apollo_11" target="_blank"><i>Wikipédia</i></a>
+      </p>
+
+      <br />
+
+      <div class="neil">
+        <blockquote>
+          <p>
+            <q><span class="neilQuote">C'est un petit pas pour l'homme mais un bond de géant pour l'humanité.
+              </span></q>
+          </p>
+
+          <img id="neilPicture" src="img/Neil_Armstrong.jpg" alt="Neil Armstrong" />
+          <footer>
+            <strong>Neil Armstrong</strong> <br />
+            Astronaut - <a href="https://www.nasa.gov/centers/glenn/about/bios/neilabio.html"
+              target="_blank"><u>NASA</u></a>
+          </footer>
+        </blockquote>
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="tm-section-pad-top tm-parallax-2">
+    <div class="container tm-container-contact">
+      <div class="row">
+        <div class="text-center col-12">
+          <h2 class="tm-section-title mb-4" style="font-weight: bold;">Contactez-nous</h2>
+          <p class="mb-5" style="font-size: 26px;">
+            Rejoignez-nous alors que nous percevons les mystères de l'univers.
+          </p>
+          <br />
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+          <form action="mailto:efmukamk01@monccnb.ca" method="post">
+
+            <table width="100%">
+              <tr>
+                <td>
+                  <input id="prenom" name="prenom" type="text" placeholder="Prénom" class="tm-input" required />
+                </td>
+
+              </tr>
+
+              <tr>
+                <td>
+                  <input id="nom" name="nom" type="text" placeholder="Nom" class="tm-input" required />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <input id="email" name="email" type="email" placeholder="Email" class="tm-input" required />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <textarea id="message" name="message" rows="8" placeholder="Message" class="tm-input"
+                    required></textarea>
+                </td>
+              </tr>
+            </table>
+
+            <button type="submit" class="btn tm-btn-submit">Envoyer</button>
+          </form>
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+          <div class="contact-item">
+            <a rel="nofollow" href="https://www.facebook.com/groups/jameswebbspacetelescope" class="item-link">
+              <!--<i class="far fa-2x fa-comment mr-4"></i>-->
+              <i class="fa fa-facebook"></i> &nbsp; &nbsp; &nbsp; &nbsp;
+              <span class="mb-0">Rejoignez notre groupe</span>
+            </a>
+          </div>
+
+          <div class="contact-item">
+            <a rel="nofollow" href="mailto:efmukamk01@monccnb.ca" class="item-link">
+              <i class="far fa-2x fa-envelope mr-4"></i>
+              <span class="mb-0">Envoyez un courriel</span>
+            </a>
+          </div>
+
+          <div class="contact-item">
+            <a rel="nofollow"
+              href="https://www.google.com/maps/place/CCNB+-+Campus+de+Bathurst/@47.6212675,-65.6735967,15z/data=!4m6!3m5!1s0x4c98915c00697663:0xe38fef4940b044e8!8m2!3d47.6212867!4d-65.6739133!16s%2Fm%2F011jh53j?entry=ttu"
+              class="item-link">
+              <i class="fas fa-2x fa-map-marker-alt mr-4"></i>
+              <span class="mb-0">Notre emplacement</span>
+            </a>
+          </div>
+
+          <div class="contact-item">
+            <a rel="nofollow" href="tel:0100200340" class="item-link">
+              <i class="fas fa-2x fa-phone-square mr-4"></i>
+              <span class="mb-0">506-655-7435</span>
+            </a>
+          </div>
+
+          <div class="contact-item">&nbsp;</div>
+        </div>
+      </div>
+      <!-- row ending -->
+    </div>
+
+    <footer class="text-center small tm-footer">
+      <p class="mb-0">
+        Copyright &copy; 2023 Cosmos - Universe 2.0. <br /> <br />
+        Modifié à partir de Infinite Loop Bootstrap 4.0 HTML Template.
+
+        <!--
           <a
             rel="nofollow"
             href="https://www.tooplate.com"
@@ -937,208 +734,209 @@ https://www.tooplate.com/view/2117-infinite-loop
             >Designed by TOOPLATE</a
           >
           -->
-        </p>
-      </footer>
-    </section>
+      </p>
+    </footer>
+  </section>
 
-    <script src="js/jquery-1.9.1.min.js"></script>
-    <script src="slick/slick.min.js"></script>
-    <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="js/easing.min.js"></script>
-    <script src="js/jquery.singlePageNav.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script>
-      function getOffSet() {
-        var _offset = 450;
-        var windowHeight = window.innerHeight;
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="slick/slick.min.js"></script>
+  <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="js/easing.min.js"></script>
+  <script src="js/jquery.singlePageNav.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    function getOffSet() {
+      var _offset = 450;
+      var windowHeight = window.innerHeight;
 
-        if (windowHeight > 500) {
-          _offset = 400;
-        }
-        if (windowHeight > 680) {
-          _offset = 300;
-        }
-        if (windowHeight > 830) {
-          _offset = 210;
-        }
-
-        return _offset;
+      if (windowHeight > 500) {
+        _offset = 400;
+      }
+      if (windowHeight > 680) {
+        _offset = 300;
+      }
+      if (windowHeight > 830) {
+        _offset = 210;
       }
 
-      function setParallaxPosition($doc, multiplier, $object) {
-        var offset = getOffSet();
-        var from_top = $doc.scrollTop(),
-          bg_css = "center " + (multiplier * from_top - offset) + "px";
-        $object.css({ "background-position": bg_css });
-      }
+      return _offset;
+    }
 
-      // Parallax function
-      // Adapted based on https://codepen.io/roborich/pen/wpAsm
-      var background_image_parallax = function ($object, multiplier, forceSet) {
-        multiplier = typeof multiplier !== "undefined" ? multiplier : 0.5;
-        multiplier = 1 - multiplier;
-        var $doc = $(document);
-        // $object.css({"background-attatchment" : "fixed"});
+    function setParallaxPosition($doc, multiplier, $object) {
+      var offset = getOffSet();
+      var from_top = $doc.scrollTop(),
+        bg_css = "center " + (multiplier * from_top - offset) + "px";
+      $object.css({ "background-position": bg_css });
+    }
 
-        if (forceSet) {
-          setParallaxPosition($doc, multiplier, $object);
-        } else {
-          $(window).scroll(function () {
-            setParallaxPosition($doc, multiplier, $object);
-          });
-        }
-      };
+    // Parallax function
+    // Adapted based on https://codepen.io/roborich/pen/wpAsm
+    var background_image_parallax = function ($object, multiplier, forceSet) {
+      multiplier = typeof multiplier !== "undefined" ? multiplier : 0.5;
+      multiplier = 1 - multiplier;
+      var $doc = $(document);
+      // $object.css({"background-attatchment" : "fixed"});
 
-      var background_image_parallax_2 = function ($object, multiplier) {
-        multiplier = typeof multiplier !== "undefined" ? multiplier : 0.5;
-        multiplier = 1 - multiplier;
-        var $doc = $(document);
-        $object.css({ "background-attachment": "fixed" });
-
+      if (forceSet) {
+        setParallaxPosition($doc, multiplier, $object);
+      } else {
         $(window).scroll(function () {
-          if ($(window).width() > 768) {
-            var firstTop = $object.offset().top,
-              pos = $(window).scrollTop(),
-              yPos = Math.round(multiplier * (firstTop - pos) - 186);
-
-            var bg_css = "center " + yPos + "px";
-
-            $object.css({ "background-position": bg_css });
-          } else {
-            $object.css({ "background-position": "center" });
-          }
+          setParallaxPosition($doc, multiplier, $object);
         });
-      };
+      }
+    };
 
-      $(function () {
-        // Hero Section - Background Parallax
-        background_image_parallax($(".tm-parallax"), 0.3, false);
-        background_image_parallax_2($("#contact"), 0.8);
-        background_image_parallax_2($("#mysteres"), 0.8);
+    var background_image_parallax_2 = function ($object, multiplier) {
+      multiplier = typeof multiplier !== "undefined" ? multiplier : 0.5;
+      multiplier = 1 - multiplier;
+      var $doc = $(document);
+      $object.css({ "background-attachment": "fixed" });
 
-        // Handle window resize
-        window.addEventListener(
-          "resize",
-          function () {
-            background_image_parallax($(".tm-parallax"), 0.3, true);
-          },
-          true
-        );
+      $(window).scroll(function () {
+        if ($(window).width() > 768) {
+          var firstTop = $object.offset().top,
+            pos = $(window).scrollTop(),
+            yPos = Math.round(multiplier * (firstTop - pos) - 186);
 
-        // Detect window scroll and update navbar
-        $(window).scroll(function (e) {
-          if ($(document).scrollTop() > 120) {
-            $(".tm-navbar").addClass("scroll");
-          } else {
-            $(".tm-navbar").removeClass("scroll");
-          }
-        });
+          var bg_css = "center " + yPos + "px";
 
-        // Close mobile menu after click
-        $("#tmNav a").on("click", function () {
-          $(".navbar-collapse").removeClass("show");
-        });
-
-        // Scroll to corresponding section with animation
-        $("#tmNav").singlePageNav({
-          easing: "easeInOutExpo",
-          speed: 600,
-        });
-
-        // Add smooth scrolling to all links
-        // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
-        $("a").on("click", function (event) {
-          if (this.hash !== "") {
-            event.preventDefault();
-            var hash = this.hash;
-
-            $("html, body").animate(
-              {
-                scrollTop: $(hash).offset().top,
-              },
-              600,
-              "easeInOutExpo",
-              function () {
-                window.location.hash = hash;
-              }
-            );
-          } // End if
-        });
-
-        // Pop up
-        $(".tm-gallery").magnificPopup({
-          delegate: "a",
-          type: "image",
-          gallery: { enabled: true },
-        });
-
-        $(".tm-testimonials-carousel").slick({
-          dots: true,
-          prevArrow: false,
-          nextArrow: false,
-          infinite: false,
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          responsive: [
-            {
-              breakpoint: 992,
-              settings: {
-                slidesToShow: 2,
-              },
-            },
-            {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 2,
-              },
-            },
-            {
-              breakpoint: 480,
-              settings: {
-                slidesToShow: 1,
-              },
-            },
-          ],
-        });
-
-        // Gallery
-        $(".tm-gallery").slick({
-          dots: true,
-          infinite: false,
-          slidesToShow: 5,
-          slidesToScroll: 2,
-          responsive: [
-            {
-              breakpoint: 1199,
-              settings: {
-                slidesToShow: 4,
-                slidesToScroll: 2,
-              },
-            },
-            {
-              breakpoint: 991,
-              settings: {
-                slidesToShow: 3,
-                slidesToScroll: 2,
-              },
-            },
-            {
-              breakpoint: 767,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-              },
-            },
-            {
-              breakpoint: 480,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-              },
-            },
-          ],
-        });
+          $object.css({ "background-position": bg_css });
+        } else {
+          $object.css({ "background-position": "center" });
+        }
       });
-    </script>
-  </body>
+    };
+
+    $(function () {
+      // Hero Section - Background Parallax
+      background_image_parallax($(".tm-parallax"), 0.3, false);
+      background_image_parallax_2($("#contact"), 0.8);
+      background_image_parallax_2($("#mysteres"), 0.8);
+
+      // Handle window resize
+      window.addEventListener(
+        "resize",
+        function () {
+          background_image_parallax($(".tm-parallax"), 0.3, true);
+        },
+        true
+      );
+
+      // Detect window scroll and update navbar
+      $(window).scroll(function (e) {
+        if ($(document).scrollTop() > 120) {
+          $(".tm-navbar").addClass("scroll");
+        } else {
+          $(".tm-navbar").removeClass("scroll");
+        }
+      });
+
+      // Close mobile menu after click
+      $("#tmNav a").on("click", function () {
+        $(".navbar-collapse").removeClass("show");
+      });
+
+      // Scroll to corresponding section with animation
+      $("#tmNav").singlePageNav({
+        easing: "easeInOutExpo",
+        speed: 600,
+      });
+
+      // Add smooth scrolling to all links
+      // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+      $("a").on("click", function (event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            600,
+            "easeInOutExpo",
+            function () {
+              window.location.hash = hash;
+            }
+          );
+        } // End if
+      });
+
+      // Pop up
+      $(".tm-gallery").magnificPopup({
+        delegate: "a",
+        type: "image",
+        gallery: { enabled: true },
+      });
+
+      $(".tm-testimonials-carousel").slick({
+        dots: true,
+        prevArrow: false,
+        nextArrow: false,
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 2,
+            },
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+            },
+          },
+        ],
+      });
+
+      // Gallery
+      $(".tm-gallery").slick({
+        dots: true,
+        infinite: false,
+        slidesToShow: 5,
+        slidesToScroll: 2,
+        responsive: [
+          {
+            breakpoint: 1199,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+    });
+  </script>
+</body>
+
 </html>
